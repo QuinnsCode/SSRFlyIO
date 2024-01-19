@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for ssrflyio-autumn-thunder-3935 on 2024-01-19T11:03:11-08:00
+# fly.toml app configuration file generated for ssrflyio-empty-paper-6127 on 2024-01-19T12:02:43-08:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = "ssrflyio-autumn-thunder-3935"
+app = "ssrflyio-empty-paper-6127"
 primary_region = "lax"
 
 [build]

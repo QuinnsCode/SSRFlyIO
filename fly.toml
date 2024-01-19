@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for ssrflyio-empty-paper-6127 on 2024-01-19T12:02:43-08:00
+# fly.toml app configuration file generated for ssrflyio-lingering-leaf-7530-lively-breeze-4466 on 2024-01-19T12:20:01-08:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = "ssrflyio-empty-paper-6127"
+app = "ssrflyio-lingering-leaf-7530-lively-breeze-4466"
 primary_region = "lax"
 
 [build]
@@ -12,7 +12,6 @@ primary_region = "lax"
   release_command = ".fly/release.sh"
 
 [env]
-  DATABASE_URL = "file://data/sqlite.db"
   MIGRATE_ON_BOOT = "true"
   PORT = "8910"
   REDWOOD_DISABLE_TELEMETRY = "1"

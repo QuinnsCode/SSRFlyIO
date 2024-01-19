@@ -6,5 +6,4 @@ if [ -n $MIGRATE_ON_BOOT ]; then
   $(dirname $0)/migrate.sh
 fi
 
-# npx rw-server --port ${PORT} $@
-npx rw-server --port 8910 $@
+npx rw-server --port ${PORT} $@

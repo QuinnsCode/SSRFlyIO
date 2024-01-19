@@ -32,6 +32,8 @@ RUN yarn rw build web
 # ------------------------------------------------
 FROM dependencies as api_build
 
+EXPOSE 8910
+
 COPY api api
 RUN yarn rw build api
 
